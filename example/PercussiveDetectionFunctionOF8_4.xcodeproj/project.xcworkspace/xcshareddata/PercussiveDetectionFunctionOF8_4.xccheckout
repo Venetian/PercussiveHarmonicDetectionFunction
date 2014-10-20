@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F01C80F-2276-4E89-97D2-493B54F3AC4E</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC77C493CF2E7EA42521B6F2B106561850539723</key>
+		<string>https://github.com/Venetian/ofxWindowRegion.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC77C493CF2E7EA42521B6F2B106561850539723</key>
+		<string>ofxWindowRegion</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Venetian/ofxWindowRegion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC77C493CF2E7EA42521B6F2B106561850539723</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC77C493CF2E7EA42521B6F2B106561850539723</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxWindowRegion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

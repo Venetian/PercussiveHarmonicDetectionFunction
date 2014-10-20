@@ -16,14 +16,19 @@ AudioRingBuffer::AudioRingBuffer(){
 	hopsize = 0;
 	
 	useDouble = true;
+    
+    printf("audiobuffer init staright\n");
+    
 }
 
 AudioRingBuffer::AudioRingBuffer(int bufsize, int hop){
+    printf("audiobuffer init with int int\n");
+    
 	if (bufsize > 0){
 		buffersize = bufsize;
 		hopsize = hop;
-	//	if (audiobuffer)
-	//		delete[] audiobuffer;
+		if (audiobuffer)
+			delete[] audiobuffer;
 	
 		audiobuffer = new float[buffersize];
 		doubleBuffer = new double[buffersize];
@@ -36,11 +41,12 @@ AudioRingBuffer::AudioRingBuffer(int bufsize, int hop){
 		
 	}
 	count = 0;
+    
 }
 
 AudioRingBuffer::~AudioRingBuffer(){
-	if (audiobuffer != 0)
-		delete[] audiobuffer;
+	//if (audiobuffer != 0)
+	//	delete[] audiobuffer;
 }
 
 int AudioRingBuffer::addToBuffer(float* samples, int n){

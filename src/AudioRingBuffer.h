@@ -13,7 +13,10 @@
 #include "Debug.h"
 //#include "ofMain.h"//get rid of this (to use printf and null)
 
-#include <stdio.h>
+//#include <iostream>
+//#include <cstdio>
+//#include <cstdlib>
+
 
 class AudioRingBuffer{
 public:
